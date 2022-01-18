@@ -1,0 +1,32 @@
+* {
+  font-family: "Avenir";
+}
+body {
+  background-color: black;
+}
+.days-left {
+  color: white;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.days-left h1 {
+  font-size: 50px;
+}
+@media (max-width: 450px) {
+  .days-left h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 350px) {
+  .days-left h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 270px) {
+  .days-left h1 {
+    font-size: 25px;
+  }
+}
